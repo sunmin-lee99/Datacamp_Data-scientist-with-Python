@@ -1,0 +1,69 @@
+[ Introduction to Python ]
+
+3. Functions and Packages
+
+
+<Functions, 함수>
+: 따로 코드 작성 필요없이 함수를 이용해 간단하게 원하는 값 출력 가능
+ex.
+max(fam) # 집합 내에서 가장 큰 숫자를 출력해줌
+	# 굳이 코드를 쓰면서 큰 숫자를 찾을 필요가 없어짐
+
+- round() : 반올림 함수
+ex. 
+round(1.68, 1) # 1.68(반올림을 실행할 수), 1(정밀도, 소수점 첫째자리에서 반올림)
+
+1.7
+
+round(1.68) # 두번째 입력인 정밀도를 입력하지 않은 경우
+
+2 # 자동으로 숫자를 가장 가까운 '정수'로 반올림함
+
+# help(함수명) : 함수에 대한 설명이 나타남
+ex.
+help(round)
+
+round(number, ndigits)
+- ndigits : 선택적 인수 (꼭 입력하지 않아도 실행된다는 뜻)
+
+=> 시간이 지남에 따라 함수들을 자연스럽게 익히게 될 것
+작업들을 수행하면서 이 작업을 더 빠르게 수행할 수 있는 함수가 존재하는지 확인할 것이고, 찾으면 꼭 사용해야한다!
+
+
+<Learn from Exercise>
+# help(함수명) =  ?함수명 (둘 다 사용 가능)
+
+# complex() : 복소수 데이터, 정수 부분(real part)과 소수 부분(imaginary part)을 갖음
+(정수 부분은 필수이나, 소수 부분은 선택적)
+
+# 함수에 대한 설명에 [, ]인 부분은 선택적 인수라는 뜻
+
+# iterable : 각각의 번호표가 존재한다 
+-> iterable하다 = indexing 즉 각각의 번호표를 붙일 수 있다
+-> iterable argument : 각각의 번호표가 존재하는 인수들
+
+# sorted() : 정렬 함수, 함수를 다시 정렬하는 함수
+- 형태 : sorted(list 함수명, reverse = True or False)
+* reverse = True : descending order, 줄어드는 방향으로 정렬
+  reverse = False : ascending order, 늘어나는 방향으로 정렬
+
+# len() : 목록 또는 문자열의 길이를 알려주는 함수
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
